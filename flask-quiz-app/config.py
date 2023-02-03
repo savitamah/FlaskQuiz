@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 basedir = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess'
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgress:wS46vKhjekpwtkziEA7HOALy4trZbENw@dpg-cfed3i4gqg46rpnh4ru0-a.oregon-postgres.render.com/app_xsaa'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgress:wS46vKhjekpwtkziEA7HOALy4trZbENw@dpg-cfed3i4gqg46rpnh4ru0-a/app_xsaa'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # MAIL_SERVER = 'smtp.googlemail.com'
     # MAIL_PORT = 587
